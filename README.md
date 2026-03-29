@@ -4,7 +4,7 @@ This repository, contains Python implementations of online regression algorithms
 
 The online regression algorithms in this library were implemented and validated using datasets from the **Energy Technology Institute (ETI)** and **PROTEUS**, demonstrating their utility in real-world. Due to the size of these data, they were not included at the time of completion in this repo. 
 
-Additionally, the `ralgo` directory contains implementations tested against various benchmarks from the **UCI Machine Learning Repository**. Research is currently ongoing regarding the performance of online learning under delayed and batched feedback protocols.
+Additionally, the `ralgo` directory contains implementations tested against various benchmarks from the **UCI Machine Learning Repository**.
 
 ---
 
