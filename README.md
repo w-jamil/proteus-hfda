@@ -2,7 +2,9 @@
 
 This repository, contains Python implementations of online regression algorithms from **SOLMA** library. These algorithms are specifically designed for efficient processing of sequential data, enabling real-time predictions and adaptive learning in dynamic environments.
 
-The online regression algorithms within this library have been specifically implemented and validated on datasets from the **Energy Technology Institute (ETI)**, showcasing their practical utility in real-world energy-related forecasting applications. Additionally, the `ralgo` folder within this repository contains implementations tested with various datasets sourced from the **UCI Machine Learning Repository**. A dedicated study on the performance of a key online learning algorithm under various delayed and batched feedback protocols is also available as `delayed_feedback.py` directly within the `onlinereg` folder.
+The online regression algorithms in this library were implemented and validated using datasets from the **Energy Technology Institute (ETI)** and **PROTEUS**, demonstrating their utility in real-world. Due to the size of these data, they were not included at the time of completion in this repo. 
+
+Additionally, the `ralgo` directory contains implementations tested against various benchmarks from the **UCI Machine Learning Repository**. Research is currently ongoing regarding the performance of online learning under delayed and batched feedback protocols.
 
 ---
 
@@ -67,6 +69,15 @@ pip install numpy argparse matplotlib scikit-learn pandas scipy seaborn
     -   Predicted label for each observation.
 
 ---
+
+## Related Publications
+
+* **Jamil, W.**, and Bouchachia, A. (2022). Iterative ridge regression using the aggregating algorithm. *Pattern Recognition Letters*, 158, 34-41.
+* **Jamil, W.**, and Bouchachia, A. (2020). Competitive normalised least-squares regression. *IEEE Transactions on Neural Networks and Learning Systems*, 32(7), 3262-3267.
+* **Jamil, W.**, and Bouchachia, A. (2020). Competitive regularised regression. *Neurocomputing*, 390, 374-383.
+* **Jamil, W.**, and Bouchachia, A. (2020). Online Bayesian shrinkage regression. *Neural Computing and Applications*, 32(23), 17759-17767.
+* **Jamil, W.**, and Bouchachia, A. (2019). Online Bayesian shrinkage regression. *Proceedings of the 27th European Symposium on Artificial Neural Networks (ESANN)*.
+* **Jamil, W.**, Duong, N.C., Wang, W., Mansouri, C., Mohamad, S., and Bouchachia, A. (2018). Scalable online learning for flink: SOLMA library. *Proceedings of the 12th European Conference on Software Architecture (ECSA)*.
 
 Contributions are welcome. If you encounter any bugs, have feature requests, or wish to contribute code, please feel free to open an issue or submit a pull request on the GitHub repository.
 
